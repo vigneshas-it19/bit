@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+.header1{
+    width: 100%;
+    height: 20px;
+    background-color: #C497F3;
+    text-align: end;
+    display: inline-block;
+
+}
+.header1>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.header2{
+    width: 100%;
+    height: 80px;
+    background-color: #48246E;
+    display: inline-block;
+    text-align: end;
+    
+}
+.header2>a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    padding: 5px;
+    position: relative;
+    top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    color: white;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    width: 100%;
+    font-size: xx-large;
+    font-family:Arial;
+    
+}
+.header2>a:hover{
+    color: orange;
+}
+
+.text>button{
+    padding: 10px;
+    color: grey;
+    border: hidden;
+    border-radius :25px;
+    width: 120px;
+    
+    
+}
+.text>button>a{
+    text-decoration: none;
+    color: grey;
+}
+.programmes{
+    width: 450px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 5px 10px 18px #888888;
+    position: absolute;
+    top:550px;
+    left:20px;
+
+}
+.ach{
+    width: 450px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 5px 10px 18px #888888;
+    position: absolute;
+    top:550px;
+    left:540px;
+}
+.placements{
+    width: 450px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 5px 10px 18px #888888;
+    position: absolute;
+    top:550px;
+    left:1050px;
+}
